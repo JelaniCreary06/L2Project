@@ -1,0 +1,26 @@
+
+.eventsHolder {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+  }
+  
+  .eventDisplayDiv {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+  }
+  
+  .eventDisplayDiv:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .eventDisplayContainer {
+    display: flexbox;
+    padding: 2px 16px;
+    text-align: center;
+  }
+  /*repeat(auto-fit, minmax(150px, 1fr));*/
+  
+  .registerButton:hover {
+    background-color: darkgray;
+  }
