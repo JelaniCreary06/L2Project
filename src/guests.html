@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Convention - Guests</title>
+  <link rel="stylesheet" href="/src/css/guestStyle.css">
+</head>
+<body>
+  <header>
+    <h1>Guests</h1>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="events.html">Events</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="featured-guests">
+      <!-- Featured Guest 1 -->
+      <div class="guest">
+        <h2>Featured Guest 1</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/LeBron_James_%2851959977144%29_%28cropped2%29.jpg" alt="LeBron James">
+        <button class="toggle-button" onclick="toggleBio(1)">Show Bio</button>
+        <div class="guest-bio" style="display: none;">
+            <p>This is LeBron James</p>
+        </div>
+      </div>
+
+      <!-- Featured Guest 2 -->
+      <div class="guest">
+        <h2>Featured Guest 2</h2>
+        <img src="guest2-image.jpg" alt="Guest 2">
+        <button class="toggle-button" onclick="toggleBio(2)">Show Bio</button>
+        <div class="guest-bio" style="display: none;">
+        <!-- bio  content for Featured Guest 2 -->
+        </div>
+      </div>
+    </section>
+
+    <section id="secondary-guests">
+      <!-- Secondary Guest 1 -->
+      <div class="guest">
+        <h2>Secondary Guest 1</h2>
+        <img src="guest3-image.jpg" alt="Guest 3">
+        <button class="toggle-button" onclick="toggleBio(3)">Show Bio</button>
+        <div class="guest-bio" style="display: none;">
+          <!-- Bio content for Secondary Guest 1 -->
+        </div>
+      </div>
+
+      <!-- Secondary Guest 2 -->
+      <div class="guest">
+        <h2>Secondary Guest 2</h2>
+        <img src="guest4-image.jpg" alt="Guest 4">
+        <button class="toggle-button" onclick="toggleBio(4)">Show Bio</button>
+        <div class="guest-bio" style="display: none;">
+          <!-- Bio content for Secondary Guest 2 -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="scripts/guest.js"></script>
+</body>
+</html>
