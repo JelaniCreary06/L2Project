@@ -21,7 +21,6 @@ document.querySelectorAll('.eventDisplayDiv').forEach((div) => {
   const eventData = registeredEvents[`${div.id}`];
   
   div.addEventListener('mouseenter', () => {
-    console.log('div clicked')
     div.style.width = "150px";
     div.style.height = "300px";
     document.getElementById(`${div.id}-d`).textContent = eventData[2];
